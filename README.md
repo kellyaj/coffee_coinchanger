@@ -10,10 +10,11 @@ The task is to create a `makeChange` function within a `Coinchanger` class that 
 
 `makeChange(99)` should return `[25, 25, 25, 10, 10, 1, 1, 1, 1]`
 
-There are already a few specs written in the `spec/coinchanger.coffee` file. This is not a full suite, there will need to be more added to ensure the program works. Code can be written in `scripts/coinchanger.coffee`.
 
 Testing
 =============
+There are already a few specs written in the `spec/coinchanger.coffee` file. They are currently failing. This is not a full suite, there will need to be more added to ensure the program works. Code can be written in `scripts/coinchanger.coffee`.
+
 This comes pre-configured out of the box to use [testem](https://github.com/airportyh/testem).
 
 If you haven't already, run `npm install testem -g` to globally install testem.
