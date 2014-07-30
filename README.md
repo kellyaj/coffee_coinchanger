@@ -1,6 +1,6 @@
 Coinchanger
 =============
-The task is to create a function within a `Coinchanger` class that will take in a particular amount and return an array representing the minimal amount of coins to make that amount. This assumes United States coin denominations. It only needs to support amounts up to 99. Like so:
+The task is to create a `makeChange` function within a `Coinchanger` class that will take in a particular amount and return an array representing the minimal amount of coins to make that amount. This assumes United States coin denominations. It only needs to support amounts up to 99. Like so:
 
 `makeChange(1)` should return `[1]`
 
